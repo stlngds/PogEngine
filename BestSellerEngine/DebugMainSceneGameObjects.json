@@ -1,0 +1,110 @@
+{
+	"GameObjects": {
+		"UshaObj": {
+			"Components": {
+				"Render": {
+					"Colors": {
+						"color1": [ 1.0, 0.0, 0.0, 0.0 ],
+						"color2": [ 0.0, 1.0, 0.0, 0.0 ],
+						"color3": [ 0.0, 0.0, 1.0, 0.0 ],
+						"color4": [ 0.0, 1.0, 0.0, 0.0 ]
+					},
+					"Texcoords": {
+						"tc1": [ 0.0, 0.0 ],
+						"tc2": [ 1.0, 0.0 ],
+						"tc3": [ 1.0, 1.0 ],
+						"tc4": [ 0.0, 1.0 ]
+					},
+					"Vertices": {
+						"v1": [ -0.5, -0.5, -0.5 ],
+						"v2": [ 0.5, -0.5, -0.5 ],
+						"v3": [ 0.5, 0.5, -0.5 ],
+						"v4": [ -0.5, 0.5, -0.5 ]
+					},
+					"Indices": [ 0, 1, 2, 2, 3, 0 ],
+					"GeometryType": "TriangleMesh",
+					"Shader": {
+						"vertex_shader_file": "basic.vert",
+						"fragment_shader_file": "basic.frag",
+						"attributes": {
+							"att0": "vertex_position",
+							"att1": "vertex_color",
+							"att2": "vertex_texture_coord"
+						}
+					},
+					"TexturePath": "Textures/ushaVictory.png"
+				},
+				"Transform": {
+					"position": [ 0.0, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 1.0, 1.0, 1.0 ]
+				},
+				"Physics": {
+					"position": [ 0.0, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.5, 0.5, 0.0 ],
+					"velocity": [ 0.0, 0.0, 0.0 ],
+					"acceleration": [ 0.0, 0.0, 0.0 ],
+					"force": [ 0.0, 0.0, 0.0 ],
+					"angular_velocity": [ 0.0, 0.0, 0.0 ],
+					"mass": 0.0,
+					"inv_mass": 0.0,
+					"shape_type": 2
+				}
+			}
+		},
+		"SheaObj": {
+			"Components": {
+				"Render": {
+					"Colors": {
+						"color1": [ 1.0, 0.0, 0.0, 0.0 ],
+						"color2": [ 0.0, 1.0, 0.0, 0.0 ],
+						"color3": [ 0.0, 0.0, 1.0, 0.0 ],
+						"color4": [ 0.0, 1.0, 0.0, 0.0 ]
+					},
+					"Texcoords": {
+						"tc1": [ 0.0, 0.0 ],
+						"tc2": [ 1.0, 0.0 ],
+						"tc3": [ 1.0, 1.0 ],
+						"tc4": [ 0.0, 1.0 ]
+					},
+					"Vertices": {
+						"v1": [ -0.5, -0.5, -0.5 ],
+						"v2": [ 0.5, -0.5, -0.5 ],
+						"v3": [ 0.5, 0.5, -0.5 ],
+						"v4": [ -0.5, 0.5, -0.5 ]
+					},
+					"Indices": [ 0, 1, 2, 2, 3, 0 ],
+					"GeometryType": "TriangleMesh",
+					"Shader": {
+						"vertex_shader_file": "basic.vert",
+						"fragment_shader_file": "basic.frag",
+						"attributes": {
+							"att0": "vertex_position",
+							"att1": "vertex_color",
+							"att2": "vertex_texture_coord"
+						}
+					},
+					"TexturePath": "Textures/sheaSip.png"
+				},
+				"Transform": {
+					"position": [ 0.0, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 1.0, 1.0, 1.0 ]
+				},
+				"Physics": {
+					"position": [ 0.0, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.5, 0.5, 0.0 ],
+					"velocity": [ 0.0, 0.0, 0.0 ],
+					"acceleration": [ 0.0, 0.0, 0.0 ],
+					"force": [ 0.0, 0.0, 0.0 ],
+					"angular_velocity": [ 0.0, 0.0, 0.0 ],
+					"mass": 0.0,
+					"inv_mass": 0.0,
+					"shape_type": 2
+				}
+			}
+		}
+	}
+}

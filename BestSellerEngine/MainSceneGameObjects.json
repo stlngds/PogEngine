@@ -1,0 +1,216 @@
+{
+	"GameObjects": {
+		"P1Paddle": {
+			"Components": {
+				"Render": {
+					"Colors": {
+						"color1": [ 1.0, 0.0, 0.0, 0.0 ],
+						"color2": [ 0.0, 1.0, 0.0, 0.0 ],
+						"color3": [ 0.0, 0.0, 1.0, 0.0 ],
+						"color4": [ 0.0, 1.0, 0.0, 0.0 ]
+					},
+					"Texcoords": {
+						"tc1": [ 0.0, 0.0 ],
+						"tc2": [ 1.0, 0.0 ],
+						"tc3": [ 1.0, 1.0 ],
+						"tc4": [ 0.0, 1.0 ]
+					},
+					"Vertices": {
+						"v1": [ -0.5, -0.5, -0.5 ],
+						"v2": [ 0.5, -0.5, -0.5 ],
+						"v3": [ 0.5, 0.5, -0.5 ],
+						"v4": [ -0.5, 0.5, -0.5 ]
+					},
+					"Indices": [ 0, 1, 2, 2, 3, 0 ],
+					"GeometryType": "TriangleMesh",
+					"Shader": {
+						"vertex_shader_file": "basic.vert",
+						"fragment_shader_file": "basic.frag",
+						"attributes": {
+							"att0": "vertex_position",
+							"att1": "vertex_color",
+							"att2": "vertex_texture_coord"
+						}
+					},
+					"TexturePath": "Textures/ball.png"
+				},
+				"Transform": {
+					"position": [ -0.9, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.03, 0.4, 1.0 ]
+				},
+				"Physics": {
+					"position": [ -0.9, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.02, 0.17, 1.0 ],
+					"velocity": [ 0.0, 0.0, 0.0 ],
+					"acceleration": [ 0.0, 0.0, 0.0 ],
+					"force": [ 0.0, 0.0, 0.0 ],
+					"angular_velocity": [ 0.0, 0.0, 0.0 ],
+					"mass": 0.0,
+					"inv_mass": 0.0,
+					"shape_type": 2
+				}
+			}
+		},
+		"P2Paddle": {
+			"Components": {
+				"Render": {
+					"Colors": {
+						"color1": [ 1.0, 0.0, 0.0, 0.0 ],
+						"color2": [ 0.0, 1.0, 0.0, 0.0 ],
+						"color3": [ 0.0, 0.0, 1.0, 0.0 ],
+						"color4": [ 0.0, 1.0, 0.0, 0.0 ]
+					},
+					"Texcoords": {
+						"tc1": [ 0.0, 0.0 ],
+						"tc2": [ 1.0, 0.0 ],
+						"tc3": [ 1.0, 1.0 ],
+						"tc4": [ 0.0, 1.0 ]
+					},
+					"Vertices": {
+						"v1": [ -0.5, -0.5, -0.5 ],
+						"v2": [ 0.5, -0.5, -0.5 ],
+						"v3": [ 0.5, 0.5, -0.5 ],
+						"v4": [ -0.5, 0.5, -0.5 ]
+					},
+					"Indices": [ 0, 1, 2, 2, 3, 0 ],
+					"GeometryType": "TriangleMesh",
+					"Shader": {
+						"vertex_shader_file": "basic.vert",
+						"fragment_shader_file": "basic.frag",
+						"attributes": {
+							"att0": "vertex_position",
+							"att1": "vertex_color",
+							"att2": "vertex_texture_coord"
+						}
+					},
+					"TexturePath": "Textures/ball.png"
+				},
+				"Transform": {
+					"position": [ 0.9, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.03, 0.4, 1.0 ]
+				},
+				"Physics": {
+					"position": [ 0.9, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.02, 0.17, 1.0 ],
+					"velocity": [ 0.0, 0.0, 0.0 ],
+					"acceleration": [ 0.0, 0.0, 0.0 ],
+					"force": [ 0.0, 0.0, 0.0 ],
+					"angular_velocity": [ 0.0, 0.0, 0.0 ],
+					"mass": 0.0,
+					"inv_mass": 0.0,
+					"shape_type": 2
+				}
+			}
+		},
+		"Background": {
+			"Components": {
+				"Render": {
+					"Colors": {
+						"color1": [ 1.0, 0.0, 0.0, 0.0 ],
+						"color2": [ 0.0, 1.0, 0.0, 0.0 ],
+						"color3": [ 0.0, 0.0, 1.0, 0.0 ],
+						"color4": [ 0.0, 1.0, 0.0, 0.0 ]
+					},
+					"Texcoords": {
+						"tc1": [ 0.0, 0.0 ],
+						"tc2": [ 1.0, 0.0 ],
+						"tc3": [ 1.0, 1.0 ],
+						"tc4": [ 0.0, 1.0 ]
+					},
+					"Vertices": {
+						"v1": [ -0.5, -0.5, -0.5 ],
+						"v2": [ 0.5, -0.5, -0.5 ],
+						"v3": [ 0.5, 0.5, -0.5 ],
+						"v4": [ -0.5, 0.5, -0.5 ]
+					},
+					"Indices": [ 0, 1, 2, 2, 3, 0 ],
+					"GeometryType": "TriangleMesh",
+					"Shader": {
+						"vertex_shader_file": "basic.vert",
+						"fragment_shader_file": "basic.frag",
+						"attributes": {
+							"att0": "vertex_position",
+							"att1": "vertex_color",
+							"att2": "vertex_texture_coord"
+						}
+					},
+					"TexturePath": "Textures/background.png"
+				},
+				"Transform": {
+					"position": [ 0.0, 0.0, -1.0 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 2.0, 2.0, 2.0 ]
+				},
+				"Physics": {
+					"position": [ 10.0, 10.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.0, 0.0, 0.0 ],
+					"velocity": [ 0.0, 0.0, 0.0 ],
+					"acceleration": [ 0.0, 0.0, 0.0 ],
+					"force": [ 0.0, 0.0, 0.0 ],
+					"angular_velocity": [ 0.0, 0.0, 0.0 ],
+					"mass": 0.0,
+					"inv_mass": 0.0,
+					"shape_type": 2
+				}
+			}
+		},
+		"Ball": {
+			"Components": {
+				"Render": {
+					"Colors": {
+						"color1": [ 1.0, 0.0, 0.0, 0.0 ],
+						"color2": [ 0.0, 1.0, 0.0, 0.0 ],
+						"color3": [ 0.0, 0.0, 1.0, 0.0 ],
+						"color4": [ 0.0, 1.0, 0.0, 0.0 ]
+					},
+					"Texcoords": {
+						"tc1": [ 0.0, 0.0 ],
+						"tc2": [ 1.0, 0.0 ],
+						"tc3": [ 1.0, 1.0 ],
+						"tc4": [ 0.0, 1.0 ]
+					},
+					"Vertices": {
+						"v1": [ -0.5, -0.5, -0.5 ],
+						"v2": [ 0.5, -0.5, -0.5 ],
+						"v3": [ 0.5, 0.5, -0.5 ],
+						"v4": [ -0.5, 0.5, -0.5 ]
+					},
+					"Indices": [ 0, 1, 2, 2, 3, 0 ],
+					"GeometryType": "TriangleMesh",
+					"Shader": {
+						"vertex_shader_file": "basic.vert",
+						"fragment_shader_file": "basic.frag",
+						"attributes": {
+							"att0": "vertex_position",
+							"att1": "vertex_color",
+							"att2": "vertex_texture_coord"
+						}
+					},
+					"TexturePath": "Textures/ball.png"
+				},
+				"Transform": {
+					"position": [ 0.0, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.03, 0.04, 1.0 ]
+				},
+				"Physics": {
+					"position": [ 0.0, 0.0, -0.5 ],
+					"rotation": [ 0.0, 0.0, 0.0 ],
+					"scale": [ 0.03, 0.04, 0.0 ],
+					"velocity": [ 0.0, 0.0, 0.0 ],
+					"acceleration": [ 0.0, 0.0, 0.0 ],
+					"force": [ 0.0, 0.0, 0.0 ],
+					"angular_velocity": [ 0.0, 0.0, 0.0 ],
+					"mass": 0.0,
+					"inv_mass": 0.0,
+					"shape_type": 2
+				}
+			}
+		}
+	}
+}
